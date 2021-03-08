@@ -4,3 +4,34 @@ pink: #D88A93
 cream: #FFF4F2
 black (text): #010015
 */
+
+body {
+  background-color: inherit;
+  font-family: 'Cormorant Garamond', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #010015;
+}
+h1, h2, h3, h4  {
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1.75em;
+  font-weight: 600;
+}
+h4 {
+  font-size: 1.35em;
+  font-weight: 600;
+}

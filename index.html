@@ -17,7 +17,9 @@
 
 	<header>
 		<div>
-			<img src="./img/logo/site-logo.svg" alt="Jules Halstead">
+			<a href='index.html'>
+				<img src="./img/logo/site-logo.svg" alt="Jules Halstead">
+			</a>
       <nav>
 				<ul>
         	<li><a href="index.html">Work</a></li>
@@ -31,17 +33,17 @@
 
 	<main>
 		<div>
-			<div>
+			<div id="hero">
 				<h1>Hi, I'm Jules</h1>
 				<h2>I’m a multidisciplinary designer with a background in experience design and the arts. I'm focused on creating products that bring joy to everyday life.</h2>
 			</div>
 		</div>
 		<div>
-			<div>
+			<div id="projects">
 				<h3>My Work</h3>
 				<div class="row">
 					<div class ="column">
-						<picture>
+						<picture class="cover">
 							<source srcset="./img/citizen/citizen-cover-small.png" media="(max-width:767px)">
 							<img src="./img/citizen/citizen-cover-large.png" alt="Citizen Mockups">
 						</picture>
@@ -49,12 +51,12 @@
 					<div class="column">
 						<h4>Citizen</h4>
 						<p>Political reference app for iOS + Android</p>
-						<a href="citizen.html">view project</a>
+						<a href="citizen.html" class="button">View Project</a>
 					</div>
 				</div>
 				<div class="row">
 					<div class="column">
-						<picture>
+						<picture class="cover">
 							<source srcset="./img/the-truffle-club/the-truffle-club-cover-small.png" media="(max-width:767px)">
 							<img src="./img/the-truffle-club/the-truffle-club-cover-large.png" alt="The Truffle Club Mockups">
 						</picture>
@@ -62,12 +64,12 @@
 					<div class="coumn">
 						<h4>The Truffle Club</h4>
 						<p>Responsive web app</p>
-						<a>view project</a>
+						<a class="button">View Project</a>
 					</div>
 				</div>
 				<div class="row">
 					<div class ="column">
-						<picture>
+						<picture class="cover">
 							<source srcset="./img/just-peachy/just-peachy-cover-small.png" media="(max-width:767px)">
 	  					<img src="./img/just-peachy/just-peachy-cover-large.png" alt="Just Peachy Mockups">
 						</picture>
@@ -75,7 +77,7 @@
 					<div class="column">
 						<h4>Just Peachy</h4>
 						<p>User Interface for a savings assistant</p>
-						<a>view project</a>
+						<a class="button">View Project</a>
 					</div>
 				</div>
 			</div>
@@ -83,12 +85,12 @@
 	</main>
 
 	<footer id="contact">
-		<div>
+		<div id="contact">
 			<h3>Get in Touch</h3>
 			<p>Interested in collaborating? Want to hire me?</p>
 			<p>Drop me a line down below, or find me online!</p>
 			<div>
-				<a href="mailto:jules@juleshalstead.com">email me</a>
+				<a href="mailto:jules@juleshalstead.com" class="button">Email Me</a>
 			</div>
 			<div>
 				<ul>

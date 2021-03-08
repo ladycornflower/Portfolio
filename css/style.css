@@ -39,3 +39,42 @@ h4 {
 img {
   width: 100%;
 }
+
+a {
+  color: #D88A93;
+  font-size: 20px;
+}
+
+.cover {
+  opacity: 0.8;
+}
+
+.cover:hover {
+  opacity: 1;
+}
+
+.button {
+  display: inline-block;
+  background-color: #D88A93;
+  color: #FFF4F2;
+  text-decoration: none;
+  font-size: 22px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: .075rem;
+  padding: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #A83845;
+  color: #FFF4F2;
+}
+
+.button:active {
+  opacity: 0.5;
+}

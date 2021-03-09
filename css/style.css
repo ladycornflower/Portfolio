@@ -4,6 +4,14 @@ pink: #D88A93
 cream: #FFF4F2
 black (text): #010015
 */
+* {
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 15px;
+}
 
 body {
   background-color: inherit;
@@ -14,17 +22,18 @@ body {
   color: #010015;
 }
 h1, h2, h3, h4  {
+  font-family: 'Josefin Sans', sans-serif;
   line-height: 1.2;
 }
 
 h1 {
-  font-size: 2.75em;
-  font-weight: 700;
+  font-size: 2.5em;
+  font-weight: 600;
 }
 
 h2 {
-  font-size: 2.25em;
-  font-weight: 700;
+  font-size: 2em;
+  font-weight: 500;
 }
 
 h3 {
@@ -45,6 +54,56 @@ a {
   font-size: 20px;
 }
 
+ul {
+  list-style-image: url(../img/pink-square.png);
+  list-style-position: outside;
+  padding: 0 15px;
+}
+
+ul > li {
+  padding-left: 10px;
+  margin: 0 20px;
+}
+
+ul > li > a {
+  padding: 0 5px;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+nav > ul > li > a {
+  padding: 0 5px;
+  text-decoration: none;
+  color: #010015;
+  font-family: 'Josefin Sans';
+  font-size: 12px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+nav > ul > li > a:visited {
+  color: #010015;
+}
+
+nav > ul > li > a:hover {
+  color: #D88A93;
+}
+
+nav > ul > li > a:active {
+ color: #D88A93;
+ font-weight: 700;
+}
+
 .cover {
   opacity: 0.8;
 }
@@ -58,13 +117,12 @@ a {
   background-color: #D88A93;
   color: #FFF4F2;
   text-decoration: none;
-  font-size: 22px;
-  font-weight: 700;
-  font-style: italic;
+  font-family: 'Josefin Sans';
+  font-size: 18px;
+  font-weight: 400;
   letter-spacing: .075rem;
-  padding: 6px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 6px 10px;
+  margin: 10px 0;
   border-radius: 5px;
   transition: 0.2s;
 }
@@ -77,4 +135,125 @@ a {
 
 .button:active {
   opacity: 0.5;
+}
+
+/* Layout Styling*/
+
+.container {
+  padding: 0 15px;
+}
+
+.center {
+  text-align: center;
+}
+
+.icons {
+  padding-top: 175px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.logo {
+  max-width: 250px;
+}
+
+.img {
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+#hero {
+  padding-top: 75px;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  font-size: 2em;
+}
+
+#hero h2 {
+  font-size: 1.75em;
+  padding-top: 20px;
+}
+
+#projects {
+  padding-top: 50px;
+}
+
+#projects .column {
+  display: inline-block;
+  width: 100%;
+  padding: 0 15px;
+}
+
+#projects .row {
+  padding-bottom: 75px;
+}
+
+#projects h3 {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#projects h4 {
+  padding-top: 20px;
+  margin: 0;
+}
+
+#projects p {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+#contact {
+  text-align: left;
+  margin: 15px;
+  padding-top: 75px;
+}
+
+#contact h3 {
+  font-size: 1.75em;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 50px;
+  padding-bottom: 15px;
+}
+
+#contact h4 {
+  font-size: 1.15em;
+  font-weight: 400;
+  margin: 0;
+  padding: 5px 0;
+}
+
+#contact p {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 15px;
+}
+
+#contact ul {
+  margin: 0;
+  padding: 0;
+}
+
+#contact ul > li {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+#casestudy h1 {
+  font-size: 1.8em;
+}
+
+#casestudy h2 {
+  font-size: 1.5em;
+}
+
+#about h2 {
+  padding-top: 30px;
 }

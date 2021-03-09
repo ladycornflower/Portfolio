@@ -14,151 +14,153 @@
 
 <body>
 
-	<header>
-		<div>
-      <a href='index.html'>
-        <img src="./img/logo/site-logo.svg" alt="Jules Halstead">
-      </a>
+  <header id="header">
+		<div class="container">
+			<a href='index.html'>
+				<img src="./img/logo/site-logo.svg" alt="Jules Halstead" class="logo">
+			</a>
       <nav>
 				<ul>
         	<li><a href="index.html">Work</a></li>
+					<li><a href="play.html">Play</a></li>
         	<li><a href="about.html">About</a></li>
         	<li><a href="#contact">Contact</a></li>
-					<li><a href="play.html">Play</a></li>
 				</ul>
       </nav>
 		</div>
 	</header>
 
   <main>
-    <div>
-      <div>
+    <div id="casestudy">
+      <div class="container">
         <h1>Citizen: A political reference app for iOS + Android</h1>
         <picture>
-          <source srcset="img/citizen/citizen-cover-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-cover-large.png" alt="Citizen Mockups">
+          <source srcset="img/citizen/citizen-cover-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-cover-large.png" alt="Citizen Mockups" class="img">
         </picture>
-        <p>Challenge: Create a native app for iOS + Android</p>
-        <p>Timeline: Sep 10 - Oct 27 (1.5 months)</p>
-        <p>Role: UX + UI
+        <p><b>Challenge: Create a native app for iOS + Android</b></p>
+        <p><b>Timeline: Sep 10 - Oct 27 (1.5 months)</b></p>
+        <p><b>Role: UX + UI</b></p>
       </div>
-      <div>
+      <div class="container">
         <p>Citizen was my third project with CareerFoundry, and the only open project I worked on during the course. The constraints from the course determined that it needed to be a native app for both iOS + Android, focusing on system appropriate differences between the two UIs.</p>
         <p>Since it was an open project, I chose to design a tool that I wished I would have had this past year—a political reference app. While not the most outright thrilling concept, this project easily became my favorite one to date. It was an exciting challenge: to make a dense amount of information understandable, to design intuitive access to all the information, and to also try to bring a measure of cheer to an otherwise heavy subject matter.</p>
         <p>So what is Citizen? Citizen is your how-to politics app. It features a customizable dashboard that follows issues and policies you care about, along with a timeline for important upcoming dates like elections and legislative sessions. It includes an events dashboard so you can see what events are happing in your area and get involved. And most importantly, Citizen features a robust non-partisan directory for everything politics: politicians, social issues, relevant historical events, terminology, and organizations, so you can be well informed.</p>
         <p>Let's get to it! And I'll tell you about the three major design challenges along the way.</p>
         <picture>
-          <source srcset="img/citizen/citizen-mobile-screens-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-mobile-screens-large.png" alt="mobile wireframes">
+          <source srcset="img/citizen/citizen-mobile-screens-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-mobile-screens-large.png" alt="mobile wireframes" class="img">
         </picture>
         <h2>Design Challenge 1: Make lots of dense information digestible—and even fun!</h2>
         <p>Citizen is meant to function primarily as a reference app, which meant working with lots and lots of information. And since all of that information concerns politics, there's an easy danger for things to get cluttered, clunky and overwhelming.</p>
         <p>In order to keep things clean and engaging, I prioritized two things:</p>
         <picture>
-          <source srcset="./img/citizen/design-challenge-1-small.png" media="(max-width:767px)">
-          <img src="./img/citizen/design-challenge-1-large.png" alt="design challenge 1">
+          <source srcset="./img/citizen/design-challenge-1-small.png" media="(max-width:767px)" class="img">
+          <img src="./img/citizen/design-challenge-1-large.png" alt="design challenge 1" class="img">
         </picture>
         <p>Color ended up being one of the best tools in keeping the screens engaging but not overwhelming, without also stretching too far into the other direction of empty, minimalist screens.</p>
         <p>In order to reduce clutter, I prioritized consistent use of components and repeating style patterns throughout the UI. I kept component and icon variation to a minimum, mainly by utilizing color variants. The design for this project was a constant tightrope walk, always working to strike the balance between clean, engaging visuals and robust information access.</p>
-        <ol>
-          <p>I stayed away from the traditional red/blue color scheme associated with politics, and opted instead for green as my main color.</p>
-          <p>Green is a peaceful color and directly challenges the often intense and charged experience associated with this subject matter.</p>
-          <p>I pulled in blue and pink as a cheeky play on the traditional red and blue, and I went with bright, energizing colors to keep the experience from becoming a sterile and impersonal interface.</p>
-        </ol>
+        <ul>
+          <li><p>I stayed away from the traditional red/blue color scheme associated with politics, and opted instead for green as my main color.</p></li>
+          <li><p>Green is a peaceful color and directly challenges the often intense and charged experience associated with this subject matter.</p></li>
+          <li><p>I pulled in blue and pink as a cheeky play on the traditional red and blue, and I went with bright, energizing colors to keep the experience from becoming a sterile and impersonal interface.</p></li>
+        </ul>
         <picture>
-          <source srcset="./img/citizen/citizen-icons-and-colors-small.png" media="(max-width:767px)">
-          <img src="./img/citizen/citizen-icons-and-colors-large.png" alt="icons and colors">
+          <source srcset="./img/citizen/citizen-icons-and-colors-small.png" media="(max-width:767px)" class="img">
+          <img src="./img/citizen/citizen-icons-and-colors-large.png" alt="icons and colors" class="img">
         </picture>
         <h2>Design Challenge 2: Making things easy to reference, easy to look up, and easy to navigate</h2>
         <p>With several key features and lots of information to sift through, intuitive navigation and clear information hierarchy was essential to the design of this product.</p>
         <p>There were several ways I went about this:</p>
         <picture>
-          <source srcset="img/citizen/design-challenge-2-small.png" media="(max-width:767px)">
-          <img src="img/citizen/design-challenge-2-large.png" alt="design challenge 2">
+          <source srcset="img/citizen/design-challenge-2-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/design-challenge-2-large.png" alt="design challenge 2" class="img">
         </picture>
         <p>With so much information to navigate through, the navigation needed to feel truly intuitive, anticipating the user's next thought and providing access points to other screens and information at all times. I did this through:</p>
-        <ol>
-          <p>reinforcing the user's current location in the user journey via icons + text</p>
-          <p>displaying an array of icons to decrease screen scanning time</p>
-          <p>providing easy access to go back a step or click into the next thing</p>
-        </ol>
+        <ul>
+          <li><p>reinforcing the user's current location in the user journey via icons + text</p></li>
+          <li><p>displaying an array of icons to decrease screen scanning time</p></li>
+          <li><p>providing easy access to go back a step or click into the next thing</p></li>
+        </ul>
         <picture>
-          <source srcset="img/citizen/citizen-anticipating-navigation-large.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-anticipating-navigation-large.png" alt="navigational wireframes">
+          <source srcset="img/citizen/citizen-anticipating-navigation-large.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-anticipating-navigation-large.png" alt="navigational wireframes" class="img">
         </picture>
         <p>Color blocking is a simple pattern that helped differentiate between information groups quickly and easily. I utilized this primarily on two of the main screens, distinguishing between events, bills, and reports. This pattern is also referenced in the city/state/national breakdown of offices.</p>
         <picture>
-          <source srcset="./img/citizen/citizen-color-blocking-small.png" media="(max-width:767px)">
-          <img src="./img/citizen/citizen-color-blocking-large.png" alt="color blocking wireframes">
+          <source srcset="./img/citizen/citizen-color-blocking-small.png" media="(max-width:767px)" class="img">
+          <img src="./img/citizen/citizen-color-blocking-large.png" alt="color blocking wireframes" class="img">
         </picture>
         <p>Typography. I decided to break the rules on this one and utilize all caps, all lowercase, and sentence case as a way to help subtly differentiate between navigational text and content text. I used all lower case text for screen titles and menu labels. All caps indicated navigational subtitles and more menu labels. Sentence case was reserved for event cards, bill cards, persona profiles and definitions. This was further reinforced through the fonts I chose. Josefin Sans was used exclusively for the app's navigation since it was lighter and more minimal, and Roboto, with its slim letter width and thicker weight, was used only for content information as a reference to newspapers and printed information.</p>
         <picture>
-          <source srcset="./img/citizen/citizen-typography-small.png" media="(max-width:767px)">
-          <img src="./img/citizen/citizen-typography-large.png" alt="typography">
+          <source srcset="./img/citizen/citizen-typography-small.png" media="(max-width:767px)" class="img">
+          <img src="./img/citizen/citizen-typography-large.png" alt="typography" class="img">
         </picture>
         <h2>Design Challenge 3: Navigational differences for iOS + Android</h2>
         <p>This was the driving design requirement for this project in order to meet the requirements for my course. After determining my key features + user journeys, and after a thorough dive into Apple's Human Interface Guidelines + Google's Material Design, it was time to start designing the screens. There were two main aspects to this process:</p>
         <picture>
-          <source srcset="img/citizen/design-challenge-3-small.png" media="(max-width:767px)">
-          <img src="img/citizen/design-challenge-3-large.png" alt="design challenge 3">
+          <source srcset="img/citizen/design-challenge-3-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/design-challenge-3-large.png" alt="design challenge 3" class="img">
         </picture>
         <p>In order to create two experiences of the same product and not have two separate products on my hands, it was essential that both designs were based on the same source material. To maintain consistency, the source material needed to reflect the needs of both system requirements.</p>
         <p>I started with the basic information architecture and designed (and redesigned) a site map that kept both the iOS flows and the Android flows in the proper order of steps, even if the navigation had different locations on the screens.</p>
         <picture>
-          <source srcset="img/citizen/citizen-site-map-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-site-map-large.png" alt="site map">
+          <source srcset="img/citizen/citizen-site-map-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-site-map-large.png" alt="site map" class="img">
         </picture>
         <picture>
-          <source srcset="img/citizen/citizen-navigation-differences-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-navigation-differences-large.png" alt="navigational differences">
+          <source srcset="img/citizen/citizen-navigation-differences-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-navigation-differences-large.png" alt="navigational differences" class="img">
         </picture>
         <p>Some other subtle differences include changing the colors for the menu drawer on Android to help reinforce different locations in the app, whereas the bottom navigation icons for iOS use the same primary green and the active icon features a highlight. The iOS design features a back arrow on every subpage, and the Android design relies on the system OS back arrow in the bottom nav bar.</p>
         <h2>The End | Mockups</h2>
         <p>From untangling nuanced information hierarchy to balancing the visual design of dense content, and finding and showcasing the differences in the OS's, Citizen challenged me to push past the first idea into the second, third and sometimes tenth idea. It's a project that I'm incredibly proud of, and it challenged me not only as a designer but also as a person. If you'd like to hear me chat about it more, or want to work on something similar, <a href="mailto:jules@juleshalstead.com">drop me a line :)</a></p>
         <p>In the meantime, enjoy these final screens!</p>
         <picture>
-          <source srcset="img/citizen/citizen-final-screens-1-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-final-screens-1-large.png" alt="final mockups: citizen">
+          <source srcset="img/citizen/citizen-final-screens-1-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-final-screens-1-large.png" alt="final mockups: citizen" class="img">
         </picture>
         <picture>
-          <source srcset="img/citizen/citizen-final-screens-2-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-final-screens-2-large.png" alt="final mockups: follow policies and issues you care about">
+          <source srcset="img/citizen/citizen-final-screens-2-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-final-screens-2-large.png" alt="final mockups: follow policies and issues you care about" class="img">
+        </picture>
+        <picture class=>
+          <source srcset="img/citizen/citizen-final-screens-3-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-final-screens-3-large.png" alt="final mockups: discover events in your area" class="img">
         </picture>
         <picture>
-          <source srcset="img/citizen/citizen-final-screens-3-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-final-screens-3-large.png" alt="final mockups: discover events in your area">
-        </picture>
-        <picture>
-          <source srcset="img/citizen/citizen-final-screens-4-small.png" media="(max-width:767px)">
-          <img src="img/citizen/citizen-final-screens-4-large.png" alt="final mockups: contact your local representatives">
+          <source srcset="img/citizen/citizen-final-screens-4-small.png" media="(max-width:767px)" class="img">
+          <img src="img/citizen/citizen-final-screens-4-large.png" alt="final mockups: contact your local representatives" class="img">
         </picture>
       </div>
     </div>
   </main>
 
   <footer id="contact">
-  	<div>
-  		<h3>Get in Touch</h3>
-			<p>Interested in collaborating? Want to hire me?</p>
-  		<p>Drop me a line down below, or find me online!</p>
-  		<div>
-				<a href="mailto:jules@juleshalstead.com" class="button">Email Me</a>
-  		</div>
-  		<div>
+    <div class="container">
+      <h3>Get in Touch</h3>
+      <h4>Interested in collaborating? Want to hire me?</h4>
+      <p>Drop me a line down below, or find me online!</p>
+      <div>
+        <a href="mailto:jules@juleshalstead.com" class="button">Email Me</a>
+      </div>
+      <div class="icons">
         <ul>
           <li><a href="https://www.linkedin.com/in/jules-halstead/">
-    				<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"/></svg>
-    			</a></li>
-      		<li><a href="https://www.instagram.com/jules_halstead/">
-          	<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm0,96c-43.453,0 -48.902,0.184 -65.968,0.963c-17.03,0.777 -28.661,3.482 -38.839,7.437c-10.521,4.089 -19.444,9.56 -28.339,18.455c-8.895,8.895 -14.366,17.818 -18.455,28.339c-3.955,10.177 -6.659,21.808 -7.437,38.838c-0.778,17.066 -0.962,22.515 -0.962,65.968c0,43.453 0.184,48.902 0.962,65.968c0.778,17.03 3.482,28.661 7.437,38.838c4.089,10.521 9.56,19.444 18.455,28.34c8.895,8.895 17.818,14.366 28.339,18.455c10.178,3.954 21.809,6.659 38.839,7.436c17.066,0.779 22.515,0.963 65.968,0.963c43.453,0 48.902,-0.184 65.968,-0.963c17.03,-0.777 28.661,-3.482 38.838,-7.436c10.521,-4.089 19.444,-9.56 28.34,-18.455c8.895,-8.896 14.366,-17.819 18.455,-28.34c3.954,-10.177 6.659,-21.808 7.436,-38.838c0.779,-17.066 0.963,-22.515 0.963,-65.968c0,-43.453 -0.184,-48.902 -0.963,-65.968c-0.777,-17.03 -3.482,-28.661 -7.436,-38.838c-4.089,-10.521 -9.56,-19.444 -18.455,-28.339c-8.896,-8.895 -17.819,-14.366 -28.34,-18.455c-10.177,-3.955 -21.808,-6.66 -38.838,-7.437c-17.066,-0.779 -22.515,-0.963 -65.968,-0.963Zm0,28.829c42.722,0 47.782,0.163 64.654,0.933c15.6,0.712 24.071,3.318 29.709,5.509c7.469,2.902 12.799,6.37 18.397,11.969c5.6,5.598 9.067,10.929 11.969,18.397c2.191,5.638 4.798,14.109 5.509,29.709c0.77,16.872 0.933,21.932 0.933,64.654c0,42.722 -0.163,47.782 -0.933,64.654c-0.711,15.6 -3.318,24.071 -5.509,29.709c-2.902,7.469 -6.369,12.799 -11.969,18.397c-5.598,5.6 -10.928,9.067 -18.397,11.969c-5.638,2.191 -14.109,4.798 -29.709,5.509c-16.869,0.77 -21.929,0.933 -64.654,0.933c-42.725,0 -47.784,-0.163 -64.654,-0.933c-15.6,-0.711 -24.071,-3.318 -29.709,-5.509c-7.469,-2.902 -12.799,-6.369 -18.398,-11.969c-5.599,-5.598 -9.066,-10.928 -11.968,-18.397c-2.191,-5.638 -4.798,-14.109 -5.51,-29.709c-0.77,-16.872 -0.932,-21.932 -0.932,-64.654c0,-42.722 0.162,-47.782 0.932,-64.654c0.712,-15.6 3.319,-24.071 5.51,-29.709c2.902,-7.468 6.369,-12.799 11.968,-18.397c5.599,-5.599 10.929,-9.067 18.398,-11.969c5.638,-2.191 14.109,-4.797 29.709,-5.509c16.872,-0.77 21.932,-0.933 64.654,-0.933Zm0,49.009c-45.377,0 -82.162,36.785 -82.162,82.162c0,45.377 36.785,82.162 82.162,82.162c45.377,0 82.162,-36.785 82.162,-82.162c0,-45.377 -36.785,-82.162 -82.162,-82.162Zm0,135.495c-29.455,0 -53.333,-23.878 -53.333,-53.333c0,-29.455 23.878,-53.333 53.333,-53.333c29.455,0 53.333,23.878 53.333,53.333c0,29.455 -23.878,53.333 -53.333,53.333Zm104.609,-138.741c0,10.604 -8.597,19.199 -19.201,19.199c-10.603,0 -19.199,-8.595 -19.199,-19.199c0,-10.604 8.596,-19.2 19.199,-19.2c10.604,0 19.201,8.596 19.201,19.2Z"/></svg>
-        	</a></li>
-  				<li><a href="https://twitter.com/JulesHalstead">
-          	<svg enable-background="new 0 0 56.693 56.693" height="56.693px" id="Layer_1" version="1.1" viewBox="0 0 56.693 56.693" width="56.693px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.348,5.157c-13.6,0-24.625,11.027-24.625,24.625c0,13.6,11.025,24.623,24.625,24.623c13.6,0,24.623-11.023,24.623-24.623  C52.971,16.184,41.947,5.157,28.348,5.157z M40.752,24.817c0.013,0.266,0.018,0.533,0.018,0.803c0,8.201-6.242,17.656-17.656,17.656  c-3.504,0-6.767-1.027-9.513-2.787c0.486,0.057,0.979,0.086,1.48,0.086c2.908,0,5.584-0.992,7.707-2.656  c-2.715-0.051-5.006-1.846-5.796-4.311c0.378,0.074,0.767,0.111,1.167,0.111c0.566,0,1.114-0.074,1.635-0.217  c-2.84-0.57-4.979-3.08-4.979-6.084c0-0.027,0-0.053,0.001-0.08c0.836,0.465,1.793,0.744,2.811,0.777  c-1.666-1.115-2.761-3.012-2.761-5.166c0-1.137,0.306-2.204,0.84-3.12c3.061,3.754,7.634,6.225,12.792,6.483  c-0.106-0.453-0.161-0.928-0.161-1.414c0-3.426,2.778-6.205,6.206-6.205c1.785,0,3.397,0.754,4.529,1.959  c1.414-0.277,2.742-0.795,3.941-1.506c-0.465,1.45-1.448,2.666-2.73,3.433c1.257-0.15,2.453-0.484,3.565-0.977  C43.018,22.849,41.965,23.942,40.752,24.817z"/></svg>
-      		</a></li>
+            <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm-80.037,399.871l0,-199.921l-66.464,0l0,199.921l66.464,0Zm239.62,0l0,-114.646c0,-61.409 -32.787,-89.976 -76.509,-89.976c-35.255,0 -51.047,19.389 -59.889,33.007l0,-28.306l-66.447,0c0.881,18.757 0,199.921 0,199.921l66.446,0l0,-111.65c0,-5.976 0.43,-11.95 2.191,-16.221c4.795,-11.935 15.737,-24.299 34.095,-24.299c24.034,0 33.663,18.34 33.663,45.204l0,106.966l66.45,0Zm-272.403,-296.321c-22.74,0 -37.597,14.95 -37.597,34.545c0,19.182 14.405,34.544 36.717,34.544l0.429,0c23.175,0 37.6,-15.362 37.6,-34.544c-0.43,-19.595 -14.424,-34.545 -37.149,-34.545Z"/></svg>
+          </a></li>
+          <li><a href="https://www.instagram.com/jules_halstead/">
+            <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;" version="1.1" viewBox="0 0 512 512" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:serif="http://www.serif.com/" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M256,0c141.29,0 256,114.71 256,256c0,141.29 -114.71,256 -256,256c-141.29,0 -256,-114.71 -256,-256c0,-141.29 114.71,-256 256,-256Zm0,96c-43.453,0 -48.902,0.184 -65.968,0.963c-17.03,0.777 -28.661,3.482 -38.839,7.437c-10.521,4.089 -19.444,9.56 -28.339,18.455c-8.895,8.895 -14.366,17.818 -18.455,28.339c-3.955,10.177 -6.659,21.808 -7.437,38.838c-0.778,17.066 -0.962,22.515 -0.962,65.968c0,43.453 0.184,48.902 0.962,65.968c0.778,17.03 3.482,28.661 7.437,38.838c4.089,10.521 9.56,19.444 18.455,28.34c8.895,8.895 17.818,14.366 28.339,18.455c10.178,3.954 21.809,6.659 38.839,7.436c17.066,0.779 22.515,0.963 65.968,0.963c43.453,0 48.902,-0.184 65.968,-0.963c17.03,-0.777 28.661,-3.482 38.838,-7.436c10.521,-4.089 19.444,-9.56 28.34,-18.455c8.895,-8.896 14.366,-17.819 18.455,-28.34c3.954,-10.177 6.659,-21.808 7.436,-38.838c0.779,-17.066 0.963,-22.515 0.963,-65.968c0,-43.453 -0.184,-48.902 -0.963,-65.968c-0.777,-17.03 -3.482,-28.661 -7.436,-38.838c-4.089,-10.521 -9.56,-19.444 -18.455,-28.339c-8.896,-8.895 -17.819,-14.366 -28.34,-18.455c-10.177,-3.955 -21.808,-6.66 -38.838,-7.437c-17.066,-0.779 -22.515,-0.963 -65.968,-0.963Zm0,28.829c42.722,0 47.782,0.163 64.654,0.933c15.6,0.712 24.071,3.318 29.709,5.509c7.469,2.902 12.799,6.37 18.397,11.969c5.6,5.598 9.067,10.929 11.969,18.397c2.191,5.638 4.798,14.109 5.509,29.709c0.77,16.872 0.933,21.932 0.933,64.654c0,42.722 -0.163,47.782 -0.933,64.654c-0.711,15.6 -3.318,24.071 -5.509,29.709c-2.902,7.469 -6.369,12.799 -11.969,18.397c-5.598,5.6 -10.928,9.067 -18.397,11.969c-5.638,2.191 -14.109,4.798 -29.709,5.509c-16.869,0.77 -21.929,0.933 -64.654,0.933c-42.725,0 -47.784,-0.163 -64.654,-0.933c-15.6,-0.711 -24.071,-3.318 -29.709,-5.509c-7.469,-2.902 -12.799,-6.369 -18.398,-11.969c-5.599,-5.598 -9.066,-10.928 -11.968,-18.397c-2.191,-5.638 -4.798,-14.109 -5.51,-29.709c-0.77,-16.872 -0.932,-21.932 -0.932,-64.654c0,-42.722 0.162,-47.782 0.932,-64.654c0.712,-15.6 3.319,-24.071 5.51,-29.709c2.902,-7.468 6.369,-12.799 11.968,-18.397c5.599,-5.599 10.929,-9.067 18.398,-11.969c5.638,-2.191 14.109,-4.797 29.709,-5.509c16.872,-0.77 21.932,-0.933 64.654,-0.933Zm0,49.009c-45.377,0 -82.162,36.785 -82.162,82.162c0,45.377 36.785,82.162 82.162,82.162c45.377,0 82.162,-36.785 82.162,-82.162c0,-45.377 -36.785,-82.162 -82.162,-82.162Zm0,135.495c-29.455,0 -53.333,-23.878 -53.333,-53.333c0,-29.455 23.878,-53.333 53.333,-53.333c29.455,0 53.333,23.878 53.333,53.333c0,29.455 -23.878,53.333 -53.333,53.333Zm104.609,-138.741c0,10.604 -8.597,19.199 -19.201,19.199c-10.603,0 -19.199,-8.595 -19.199,-19.199c0,-10.604 8.596,-19.2 19.199,-19.2c10.604,0 19.201,8.596 19.201,19.2Z"/></svg>
+          </a></li>
+          <li><a href="https://twitter.com/JulesHalstead">
+            <svg version="1.1" viewBox="0 0 32 32" width="30px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="OUTLINE_copy_2"><g><path d="M16,0C7.164,0,0,7.164,0,16s7.164,16,16,16s16-7.164,16-16S24.836,0,16,0z M24.44,10.857    c-0.074,0.124-0.454,0.559-0.86,0.956c-0.688,0.683-0.725,0.757-0.725,1.329c0,0.881-0.417,2.72-0.835,3.725    c-0.774,1.888-2.432,3.838-4.091,4.82c-2.334,1.378-5.442,1.727-8.059,0.919c-0.872-0.274-2.371-0.969-2.371-1.093    c0-0.038,0.454-0.087,1.008-0.1c1.155-0.024,2.31-0.346,3.292-0.919l0.663-0.398l-0.762-0.26c-1.081-0.373-2.051-1.23-2.297-2.037    c-0.074-0.261-0.049-0.274,0.638-0.274l0.712-0.012l-0.602-0.286c-0.713-0.361-1.364-0.968-1.683-1.59    c-0.233-0.447-0.528-1.577-0.442-1.664c0.025-0.037,0.283,0.038,0.577,0.137c0.847,0.311,0.958,0.236,0.467-0.286    c-0.921-0.944-1.204-2.347-0.762-3.676l0.209-0.596l0.811,0.807c1.659,1.627,3.612,2.596,5.847,2.881l0.614,0.074l-0.037-0.609    c-0.11-1.577,0.86-3.018,2.396-3.577c0.565-0.199,1.524-0.223,2.15-0.05c0.246,0.074,0.712,0.323,1.044,0.546l0.602,0.41    l0.663-0.212c0.369-0.111,0.86-0.298,1.081-0.422c0.209-0.112,0.393-0.174,0.393-0.137c0,0.211-0.455,0.932-0.835,1.329    c-0.517,0.559-0.369,0.609,0.675,0.236C24.55,10.621,24.563,10.621,24.44,10.857z"/></g></g></svg>
+          </a></li>
         </ul>
       </div>
-  		<p>Copyright Jules Halstead 2021</p>
-		 </div>
+      <div class="center">
+        <p>Copyright Jules Halstead 2021</p>
+      </div>
+     </div>
    </footer>
   </body>
 </html>

@@ -153,6 +153,11 @@ nav > ul > li > a:active {
   text-align: center;
 }
 
+.icons svg {
+  height: 30px;
+  width: 30px; 
+}
+
 .logo {
   max-width: 250px;
 }

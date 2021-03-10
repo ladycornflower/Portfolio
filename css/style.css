@@ -14,7 +14,9 @@ header {
 }
 
 body {
-  background-color: inherit;
+  background-image: url(../img/background-image.png);
+  background-color: #ffffff;
+  background-size: cover;
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -155,7 +157,8 @@ nav > ul > li > a:active {
 
 .icons svg {
   height: 30px;
-  width: 30px; 
+  width: 30
+  px;
 }
 
 .logo {
@@ -165,6 +168,16 @@ nav > ul > li > a:active {
 .img {
   margin: 20px 0;
   border-radius: 5px;
+}
+
+.shadow {
+  box-shadow: 1px 1px 10px 5px rgba(168, 56, 69, 0.1);
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 #hero {
@@ -179,6 +192,7 @@ nav > ul > li > a:active {
 
 #hero h2 {
   font-size: 1.75em;
+  font-weight: 300;
   padding-top: 20px;
 }
 
@@ -198,7 +212,7 @@ nav > ul > li > a:active {
 
 #projects h3 {
   padding-top: 40px;
-  padding-bottom: 30px;
+  padding-bottom: 0;
 }
 
 #projects h4 {
@@ -251,8 +265,18 @@ nav > ul > li > a:active {
   text-align: center;
 }
 
+#casestudy {
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+}
+
 #casestudy h1 {
   font-size: 1.8em;
+  padding-top: 40px;
 }
 
 #casestudy h2 {
@@ -261,4 +285,208 @@ nav > ul > li > a:active {
 
 #about h2 {
   padding-top: 30px;
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+  header {
+    text-align: unset;
+    padding: 30px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  nav > ul > li {
+    padding-left: 10px;
+  }
+
+  body {
+    padding: 0 30px;
+  }
+
+  #hero {
+    padding-top: 70px;
+  }
+
+  #projects h3 {
+    margin: 0;
+  }
+
+  #about h1 {
+    font-size: 2em;
+    padding-top: 70px;
+  }
+
+  .img {
+    border-radius: 7px;
+  }
+
+  .logo {
+    max-width: 140px;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+
+  .col-md-7 {
+  width: 60%;
+  padding-right: 15px;
+  }
+
+  .col-md-5 {
+    width: 40%;
+    padding-left: 15px;
+  }
+
+  [class*="col-"] {
+  float: left;
+  }
+
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 30px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  nav > ul > li {
+    padding-left: 15px;
+  }
+
+  nav > ul > li > a {
+    font-size: 16px;
+  }
+
+  body {
+    padding: 0 30px;
+  }
+
+  #hero {
+    padding: 100px 0;
+  }
+
+  #hero h1 {
+    font-size: 2.5em;
+    padding-top: 50px;
+  }
+
+  #hero h2 {
+    font-weight: 300;
+  }
+
+  #projects h3 {
+    font-size: 2em;
+    padding-bottom: 40px;
+  }
+
+  #projects h4 {
+    font-size: 1.75em;
+  }
+
+  #projects p {
+    font-size: 22px;
+  }
+
+  #about {
+    padding: 100px 0;
+  }
+
+  #casestudy h1 {
+    font-size: 2.25em;
+    padding-top: 95px;
+    margin: 0;
+  }
+
+  #casestudy h2 {
+    font-size: 1.75em;
+    padding: 20px 0;
+  }
+
+  #casestudy p {
+    font-size: 22px;
+    padding: 5px 0;
+  }
+
+  #casestudy .img {
+    margin: 75px 0;
+    border-radius: 8px;
+  }
+
+  #masthead .img {
+    margin: 40px 0;
+    border-radius: 8px;
+  }
+
+  #about p {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  #about .button {
+    font-size: 18px;
+    float: left;
+  }
+
+  .img {
+    border-radius: 7px;
+  }
+
+  .logo {
+    max-width: 200px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+  .casestudy {
+    margin: 40px 55px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .fullwidth {
+    width: 100%;
+  }
+
+  .col-lg-8 {
+  width: 70%;
+  padding-right: 15px;
+  }
+
+  .col-lg-4 {
+    width: 30%;
+    padding-left: 15px;
+  }
+
+  [class*="col-"] {
+  float: left;
+  }
+
+}
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
 }

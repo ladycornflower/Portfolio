@@ -177,9 +177,9 @@ nav > ul > li > a:active {
 }
 
 .animation {
-  width 100%,
-  max-width 100%,
-  height: auto
+  width: 100%;
+  max-width: 100%:
+  height: auto:
 }
 
 .shadow {
@@ -317,6 +317,9 @@ nav > ul > li > a:active {
   animation: 34s cloud-move-reverse infinite alternate linear;
 }
 
+[class*="col-"] {
+float: left;
+}
 
 
 /* ==============================
@@ -360,7 +363,7 @@ Medium devices (640px and larger)
   }
 
   .logo {
-    max-width: 140px;
+    width: 20%;
   }
 
   .button {
@@ -375,10 +378,6 @@ Medium devices (640px and larger)
   .col-md-5 {
     width: 40%;
     padding-left: 15px;
-  }
-
-  [class*="col-"] {
-  float: left;
   }
 
 }
@@ -481,7 +480,7 @@ Large devices (1024px or larger)
   }
 
   .logo {
-    max-width: 200px;
+    width: 15%;
   }
 
   .button {
@@ -510,10 +509,6 @@ Large devices (1024px or larger)
   .col-lg-4 {
     width: 30%;
     padding-left: 15px;
-  }
-
-  [class*="col-"] {
-  float: left;
   }
 
 }

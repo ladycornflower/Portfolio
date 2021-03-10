@@ -98,20 +98,12 @@ nav > ul > li > a:visited {
 }
 
 nav > ul > li > a:hover {
-  color: #D88A93;
+  color: #A83845;
 }
 
 nav > ul > li > a:active {
- color: #D88A93;
+ color: #A83845;
  font-weight: 700;
-}
-
-.cover {
-  opacity: 0.8;
-}
-
-.cover:hover {
-  opacity: 1;
 }
 
 .button {
@@ -127,6 +119,7 @@ nav > ul > li > a:active {
   margin: 10px 0;
   border-radius: 5px;
   transition: 0.2s;
+  transition-property: background-color;
 }
 
 .button:hover,
@@ -167,7 +160,26 @@ nav > ul > li > a:active {
 
 .img {
   margin: 20px 0;
-  border-radius: 5px;
+  border-radius: 6px;
+}
+
+.cover {
+  opacity: 0.8;
+  margin: 20px 0;
+  border-radius: 6px;
+  transition: 0.2s opacity;
+}
+
+.cover:hover {
+  opacity: 1;
+  margin: 20px 0;
+  border-radius: 6px;
+}
+
+.animation {
+  width 100%,
+  max-width 100%,
+  height: auto
 }
 
 .shadow {
@@ -286,6 +298,26 @@ nav > ul > li > a:active {
 #about h2 {
   padding-top: 30px;
 }
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(446px,48px);}
+  to {transform: translate(100px, 48px);}
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+.cloud-back {
+  animation: 34s cloud-move-reverse infinite alternate linear;
+}
+
+
 
 /* ==============================
 Medium devices (640px and larger)

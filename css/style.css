@@ -299,6 +299,12 @@ nav > ul > li > a:active {
   padding-top: 30px;
 }
 
+#about h3 {
+  font-size: 1.5em;
+  font-weight: 200;
+  line-height: 1.5;
+}
+
 @keyframes cloud-move {
   from {transform: translate(0,50px);}
   to {transform: translate(200px,50px);}
@@ -358,6 +364,12 @@ Medium devices (640px and larger)
     padding-top: 70px;
   }
 
+  #about h3 {
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+
   .img {
     border-radius: 7px;
   }
@@ -370,9 +382,17 @@ Medium devices (640px and larger)
     font-size: 14px;
   }
 
+  .top-column {
+    margin-top: 30px;
+  }
+
   .col-md-7 {
   width: 60%;
   padding-right: 15px;
+  }
+
+  .col-md-6 {
+    width: 50%;
   }
 
   .col-md-5 {
@@ -435,10 +455,6 @@ Large devices (1024px or larger)
     font-size: 22px;
   }
 
-  #about {
-    padding: 100px 0;
-  }
-
   #casestudy h1 {
     font-size: 2.25em;
     padding-top: 95px;
@@ -465,14 +481,25 @@ Large devices (1024px or larger)
     border-radius: 8px;
   }
 
+  #about {
+    padding: 100px 0;
+  }
+
+  #about h3 {
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 1.5;
+  }
+
   #about p {
     font-size: 22px;
     line-height: 1.5;
   }
 
   #about .button {
-    font-size: 18px;
-    float: left;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
   }
 
   .img {
@@ -501,9 +528,17 @@ Large devices (1024px or larger)
     width: 100%;
   }
 
+  .top-column {
+    margin-top: 30px;
+  }
+
   .col-lg-8 {
   width: 70%;
   padding-right: 15px;
+  }
+
+  .col-lg-6 {
+    width: 50%;
   }
 
   .col-lg-4 {

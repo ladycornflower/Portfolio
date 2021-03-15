@@ -14,7 +14,7 @@ header {
 
 body {
   background-image: url(../img/background-image.png);
-  background-color: #ffffff;
+  background-color: #fff;
   background-size: cover;
   font-family: 'Cormorant Garamond', sans-serif;
   font-size: 18px;
@@ -22,7 +22,11 @@ body {
   line-height: 1.4;
   color: #010015;
 }
-h1, h2, h3, h4  {
+
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Josefin Sans', sans-serif;
   line-height: 1.2;
 }
@@ -41,6 +45,7 @@ h3 {
   font-size: 1.75em;
   font-weight: 600;
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 600;
@@ -51,7 +56,7 @@ img {
 }
 
 a {
-  color: #D88A93;
+  color: #d88a93;
   font-size: 20px;
 }
 
@@ -84,7 +89,7 @@ nav > ul > li > a {
   padding: 0 5px;
   text-decoration: none;
   color: #010015;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 12px;
   font-weight: 500;
   text-transform: uppercase;
@@ -95,23 +100,23 @@ nav > ul > li > a:visited {
 }
 
 nav > ul > li > a:hover {
-  color: #A83845;
+  color: #a83845;
 }
 
 nav > ul > li > a:active {
- color: #A83845;
- font-weight: 700;
+  color: #a83845;
+  font-weight: 700;
 }
 
 .button {
   display: inline-block;
-  background-color: #D88A93;
-  color: #FFF4F2;
+  background-color: #d88a93;
+  color: #fff4f2;
   text-decoration: none;
-  font-family: 'Josefin Sans';
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 18px;
   font-weight: 400;
-  letter-spacing: .075rem;
+  letter-spacing: 0.075em;
   padding: 6px 10px;
   margin: 10px 0;
   border-radius: 5px;
@@ -121,15 +126,15 @@ nav > ul > li > a:active {
 
 .button:hover,
 .button:focus {
-  background-color: #A83845;
-  color: #FFF4F2;
+  background-color: #a83845;
+  color: #fff4f2;
 }
 
 .button:active {
   opacity: 0.5;
 }
 
-/* Layout Styling*/
+/* Layout Styling */
 
 .container {
   padding: 0 15px;
@@ -147,8 +152,7 @@ nav > ul > li > a:active {
 
 .icons svg {
   height: 30px;
-  width: 30
-  px;
+  width: 30px;
 }
 
 .logo {
@@ -175,8 +179,7 @@ nav > ul > li > a:active {
 
 .animation {
   width: 100%;
-  max-width: 100%:
-  height: auto;
+  max-width: 100%;
 }
 
 .shadow {
@@ -193,7 +196,8 @@ nav > ul > li > a:active {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
@@ -204,10 +208,9 @@ nav > ul > li > a:active {
   font-size: 20px;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
-
 
 #hero {
   padding-top: 50px;
@@ -295,7 +298,7 @@ nav > ul > li > a:active {
 }
 
 #casestudy {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 10px;
   margin: 0 15px;
   padding-left: 30px;
@@ -323,13 +326,23 @@ nav > ul > li > a:active {
 }
 
 @keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
+  from {
+    transform: translate(0, 50px);
+  }
+
+  to {
+    transform: translate(200px, 50px);
+  }
 }
 
 @keyframes cloud-move-reverse {
-  from {transform: translate(446px,48px);}
-  to {transform: translate(100px, 48px);}
+  from {
+    transform: translate(446px, 48px);
+  }
+
+  to {
+    transform: translate(100px, 48px);
+  }
 }
 
 .cloud-front {
@@ -341,9 +354,8 @@ nav > ul > li > a:active {
 }
 
 [class*="col-"] {
-float: left;
+  float: left;
 }
-
 
 /* ==============================
 Medium devices (640px and larger)
@@ -397,10 +409,6 @@ Medium devices (640px and larger)
     border-radius: 7px;
   }
 
-  .logo {
-    width: 20%;
-  }
-
   .button {
     font-size: 14px;
   }
@@ -410,8 +418,8 @@ Medium devices (640px and larger)
   }
 
   .col-md-7 {
-  width: 60%;
-  padding-right: 15px;
+    width: 60%;
+    padding-right: 15px;
   }
 
   .col-md-6 {
@@ -424,15 +432,12 @@ Medium devices (640px and larger)
   }
 
   .navtoggle li:not(:last-child) {
-  display: inline-block;
+    display: inline-block;
   }
 
   .navtoggle li:last-child {
-  display: none;
+    display: none;
   }
-
-
-
 }
 
 /* ==============================
@@ -539,10 +544,6 @@ Large devices (1024px or larger)
     border-radius: 7px;
   }
 
-  .logo {
-    width: 15%;
-  }
-
   .button {
     font-size: 20px;
   }
@@ -555,7 +556,7 @@ Large devices (1024px or larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
   .fullwidth {
     width: 100%;
@@ -566,8 +567,8 @@ Large devices (1024px or larger)
   }
 
   .col-lg-8 {
-  width: 70%;
-  padding-right: 15px;
+    width: 70%;
+    padding-right: 15px;
   }
 
   .col-lg-6 {
@@ -580,16 +581,10 @@ Large devices (1024px or larger)
   }
 
   .navtoggle li:not(:last-child) {
-  display: inline-block;
+    display: inline-block;
   }
 
   .navtoggle li:last-child {
-  display: none;
+    display: none;
   }
-
-}
-/* ==============================
-X-large devices (1440px or larger)
-================================= */
-@media only screen and (min-width: 1440px) {
 }
